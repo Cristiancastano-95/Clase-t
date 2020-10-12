@@ -55,7 +55,7 @@ font-family: TerpelSans-Regular;
 }
 .container-form{
 	width: 80%;
-	height: auto;
+	height: 100%;
 }
 .container-form h1{
 	text-align: center;
@@ -135,8 +135,9 @@ font-family: TerpelSans-Regular;
 		margin-bottom: 10%;
 	}
 	.container-form{
+		display: block;
 		width: 90%;
-		height: auto;
+		height: 100%;
 	}
 	.container-form h1{
 		text-align: center;
