@@ -156,7 +156,8 @@ font-family: TerpelSans-Regular;
 	.button-reset-pass{
 		width: auto;
 		height: 5vh;
-		margin-top: 50%;
+		margin-top: 40%;
+		margin-bottom: 0%;
 	}
 	.container-img{
 		display: none;
