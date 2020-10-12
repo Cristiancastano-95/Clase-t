@@ -146,6 +146,7 @@ font-family: TerpelSans-Regular;
 	.container-form input{
 		width: 90%;
 		height: 5vh;
+		min-height: 5vh;
 	}
 	.container-form .button-login{
 		width: 40%;
