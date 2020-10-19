@@ -294,14 +294,13 @@ footer{
 
 	footer{
 		display: block;
-		height: 7%;
+		height: 8%;
 		top: 0;
 		background-color: #2E2E2E;
 	}
 
 	footer .footer-respon p{
 		padding-top: 2%;
-		padding-bottom: 2%;
 		color: #ffffff;
 		font-size: 12px;	
 		text-align: center;
