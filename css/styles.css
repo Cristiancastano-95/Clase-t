@@ -125,7 +125,7 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
 	
 	.container-login{
 		width: 100%;
@@ -246,7 +246,7 @@ footer{
 	display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
 	
 	.maincontent{
 		flex-direction: column;
