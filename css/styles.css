@@ -55,6 +55,13 @@
 	margin-top: 5%;
 	margin-bottom: 55%;
 }
+.footer{
+	position: fixed;
+	bottom:0;
+	margin-bottom: 1%;
+	color: #ffffff;
+	font-size: 10px;
+}
 .container-form{
 	width: 80%;
 	height: auto;
@@ -126,12 +133,16 @@
 	height: auto;
 	margin: 0 auto;
 }
+footer{
+	display: none;
+}
 
 @media screen and (max-width: 990px) {
 	
 	.container-login{
 		width: 100%;
 		height: 100vh;
+		min-height: 100vw;
 	}
 	.container-login img{
 		width: 50%;
@@ -170,6 +181,25 @@
 	}
 	.container-img{
 		display: none;
+	}
+	footer{
+		display: block;
+		margin: 0;
+		padding: 0;
+		height: 8%;
+		top: 0;
+		background-color: #2E2E2E;
+	}
+
+	footer .footer-respon p{
+		padding-top: 2%;
+		padding-bottom: 2%;
+		margin-block-start: 0;
+		margin-block-end: 0;
+		color: #ffffff;
+		font-size: 12px;	
+		text-align: center;
+		
 	}
   }
 /************************************************** fin -index.html******************************************************************/
@@ -244,9 +274,6 @@
 	cursor: pointer;
 	outline:none
 }
-footer{
-	display: none;
-}
 
 @media screen and (max-width: 990px) {
 	
@@ -294,23 +321,4 @@ footer{
 		border: none;
 	}
 
-	footer{
-		display: block;
-		margin: 0;
-		padding: 0;
-		height: 8%;
-		top: 0;
-		background-color: #2E2E2E;
-	}
-
-	footer .footer-respon p{
-		padding-top: 2%;
-		padding-bottom: 2%;
-		margin-block-end: 0;
-		color: #ffffff;
-		font-size: 12px;	
-		text-align: center;
-		
-	}
-	
   }
