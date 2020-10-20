@@ -26,7 +26,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: TerpelSans-Regular;
-	background-color: #FF1E0A;
 }
 .maincontent{
 	display: flex;
@@ -179,7 +178,7 @@
 .maincontent{
 	display: flex;
 	width: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 }
 
 .container-barra-lateral{
