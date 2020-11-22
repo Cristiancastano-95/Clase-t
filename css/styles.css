@@ -696,6 +696,7 @@ footer{
 	overflow-y: hidden;
 }
 .container-img-certificaciones{
+	width: 100%;
 	margin-bottom: 3%;
 }
 .container-tabla-certificados{
@@ -729,33 +730,7 @@ footer{
 	width: 28px;
 	transform: rotate(90deg);
 }
-@media screen and (max-width: 990px){
 
-	.container-certificaciones{
-		width: 100%;
-		margin-left: 0;
-		
-	}
-	.container-tabla-certificados{
-		overflow-y: auto;
-	}
-	.container-tabla-certificados table thead tr{
-		font-size: .9em;
-	}
-	.container-tabla-certificados table thead tr th{
-		padding-left: .1em;
-		padding-right: .1em;
-		padding-top: .1em;
-		padding-bottom: .1em;
-		border-radius: 1em;
-	}
-	.container-tabla-certificados table tbody tr th{
-		font-size: .8em;
-	}
-	.container-tabla-certificados table tbody tr th img{
-		width: 18px;
-	}
-}
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-certificaciones{
@@ -766,3 +741,33 @@ footer{
 		overflow-x: hidden;
 	}
   }
+@media screen and (max-width: 990px){
+
+	.container-certificaciones{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+	.container-img-certificaciones img{
+	 width: 250px;
+	}
+	.co
+	.container-tabla-certificados{
+		overflow-y: auto;
+		
+	}
+	.container-tabla-certificados table thead tr{
+		font-size: .9em;
+	}
+	.container-tabla-certificados table thead tr th{
+		padding: .1em;
+		border-radius: 1em;
+	}
+	.container-tabla-certificados table tbody tr th{
+		font-size: .8em;
+
+	}
+	.container-tabla-certificados table tbody tr th img{
+		width: 18px;
+	}
+}
