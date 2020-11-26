@@ -581,6 +581,9 @@ footer{
 	font-size: 5em;
 	
 }
+.container-banner .container-banner-texto p:nth-child(2){
+	display: none;
+}
 .container-estaciones{
 	display: flex;
 	order: 2;
@@ -603,6 +606,7 @@ footer{
 	color: #FF1E0A;
 	margin-left: 30px;
 }
+
 .container-estaciones .container-estaciones-aprendizaje .listado-estaciones{
 	width: 100%;
 	height: 80%;	
@@ -711,75 +715,102 @@ footer{
 }
 @media screen and (max-width: 990px){
 	.container{
-		height: 100vh;
+		display: block;
 	}
 	.container-banner{
-		width: 100%;
+		display: inline-block;
 		height: 30vh;
 	}
 	.container-banner .container-banner-texto{
-		margin-left: 1.7em;
-		margin-top: 11em;
+		margin-left: 1em;
+		margin-top: 14em;
 	}
-	.container-banner .container-banner-texto p{	
-		font-size: 1.3em;
-	}
-	.container-estaciones{
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		height: 20vh;
-	}
-	.container-estaciones .container-estaciones-aprendizaje{
-		width: 80%;
-	}
-	.container-estaciones .container-estaciones-aprendizaje .titulo-estaciones p{
-		font-family:TerpelSans-ExtraBold;
-		font-size: 1.3em;
-		color: #FF1E0A;
-		margin-left: 0px;
-	}
-	.linea{
+	.container-banner .container-banner-texto p{/******cambio texto***/	
+		font-size: 1.5em;
 		display: none;
 	}
+	.container-banner .container-banner-texto p:nth-child(2){
+		display: block;
+	}
+	.container-estaciones{
+		display: inline-block;
+		height: auto;
+	}
+	.container-estaciones .container-estaciones-aprendizaje{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+	.container-estaciones .container-estaciones-aprendizaje .titulo-estaciones{
+		height: auto;
+	}
+	.container-estaciones .container-estaciones-aprendizaje .titulo-estaciones p{/******cambio texto***/
+		margin-left: 20px;
+	}
+	.container-estaciones .container-estaciones-aprendizaje .listado-estaciones{
+		height: auto;	
+	}
+	.container-estaciones .container-estaciones-aprendizaje .listado-estaciones {
+		margin-top: 1em;
+	}
+	.linea{
+		width: 90%;
+	}
 	.container-estaciones .container-actividades-pendientes{
-		width: 80%;	
-		margin-top: 2.5em;
-		border-top: solid 2px #FF1E0A;
+		display: inline-block;
+		width: 100%;
+		height: auto;
 	}
-	.container-estaciones .container-actividades-pendientes .titulo-actividades p{
-		margin-left: 0px;
+	.container-estaciones .container-actividades-pendientes .titulo-actividades{
+		height: auto;
 	}
-
+	.container-estaciones .container-actividades-pendientes .titulo-actividades p{/******cambio texto***/
+		margin-left: 20px;
+	}
+	.container-estaciones .container-actividades-pendientes .listado-actividades{
+		height: auto;	
+	}
+	.container-estaciones .container-actividades-pendientes .listado-actividades {
+		margin-top:1em;
+	}
 	.container-links{
-		margin-top: 14.5em;
+		display: flex;
+		width: 100%;
+		height: 20%;
 	}
 	.container-links .container-link-mercado{
+		display: flex;
+		width: 45%;
+		height: 80%;
 		background-color:#FF1E0A;
 		border-radius: 4em;
+		margin-left: 25px;
 	}
 	.container-links .container-link-mercado img{
 		content: url("/img/mercadoblanco.png");
-		width: 50px;
-		height: 40px;
+		width: 40px;
+		height: 30px;
 		margin-top: 16px;
 		margin-left: 45px;
 	}
 	.container-links .container-link-mercado p{
-		font-family:TerpelSans-ExtraBold;
 		font-size: 1em;
-		color: #ffffff;
-		margin-left: 25px;
-		margin-top: 20px;
+		color: #FFFFFF;
+		margin-left: 15px;
+		margin-top: 10px;
 	}
 	.container-links .container-link-ubits{
-		background-color:#FF1E0A;
+		display: flex;
+		width: 45%;
+		height: 80%;
+		background-color: #FF1E0A;
 		border-radius: 4em;
+		margin-left: 20px;
 	}
 	.container-links .container-link-ubits img{
 		content: url("/img/ubiblanco.png");
-		width: 50px;
-		height: 40px;
+		width: 40px;
+		height: 30px;
 		margin-top: 16px;
 		margin-left: 45px;
 	}
@@ -787,10 +818,11 @@ footer{
 		font-family:TerpelSans-ExtraBold;
 		font-size: 1em;
 		color: #FFFFFF;
-		margin-left: 35px;
-		margin-top: 30px;
+		margin-left: 15px;
+		margin-top: 20px;
+		padding-bottom: .5em;
 	}
-	
+		
 }
 /************************************************** fin - home.html******************************************************************/
 /************************************************** inicio - certificaciones.html******************************************************************/
