@@ -53,7 +53,7 @@
 	width: 80%;
 	height: auto;
 	margin-top: 5%;
-	margin-bottom: 55%;
+	margin-bottom: 45%;
 	
 }
 .footer{
@@ -109,7 +109,7 @@
 .button-reset-pass{
 	width: 70%;
 	height: 1.8em;
-	margin-top: 30%;
+	margin-top: 20%;
 	margin-bottom: 10%;
 	border-radius: 60px;
 	font-family:TerpelSans-Bold ;
@@ -126,14 +126,10 @@
 	display: flex;
 	width: 80%;
 	height: 100vh;
-	
+	background-image: url("../img/servicio.png");
+	background-size: cover;
 }
-.container-img img{
-	display: block;
-	min-width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
+
 footer{
 	display: none;
 }
@@ -176,7 +172,7 @@ footer{
 	.button-reset-pass{
 		width: auto;
 		height: 30px;
-		margin-top: 35%;
+		margin-top: 8%;
 		outline:none
 	
 	}
@@ -397,38 +393,38 @@ footer{
 }
 
 .menu ul li:nth-child(1){
-	background-image: url("/img/Academia.png");
+	background-image: url("../img/Academia.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
 
 }
 .menu ul li:nth-child(2){
-	background-image: url("/img/perfil.png");
+	background-image: url("../img/perfil.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
 }
 .menu ul li:nth-child(3){
-	background-image: url("/img/listado.png");
+	background-image: url("../img/listado.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
 }
 .menu ul li:nth-child(4){
-	background-image: url("/img/mensaje.png");
+	background-image: url("../img/mensaje.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
 }
 .menu ul li:nth-child(5){
-	background-image: url("/img/libros.png");
+	background-image: url("../img/libros.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
 }
 .menu ul li:nth-child(6){
-	background-image: url("/img/salir.png");
+	background-image: url("../img/salir.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: bottom left;
@@ -480,11 +476,12 @@ footer{
 .container-datos h1{
 	font-family:TerpelSans-Bold;
 	font-size: 2.2em;
+	color: #666666;
 }
 .container-datos p{
 	font-family:TerpelSans-Bold;
 	font-size: 1.6em;
-	color: #2E2E2E;
+	color: #666666;
 }
 
 .button-confirmacion{
@@ -565,7 +562,7 @@ footer{
 	order: 1;
 	width: 100%;
 	height: 60vh;
-	background-image: url("/img/chicos.jpg");
+	background-image: url("../img/chicos.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: right bottom;
@@ -602,7 +599,7 @@ footer{
 }
 .container-estaciones .container-estaciones-aprendizaje .titulo-estaciones p{
 	font-family:TerpelSans-ExtraBold;
-	font-size: 1.3em;
+	font-size: 24px;
 	color: #FF1E0A;
 	margin-left: 30px;
 }
@@ -624,6 +621,7 @@ footer{
 	height: 80%;
 	margin-bottom: 10px;
 	font-family:TerpelSans-ExtraBold;
+	color: #666666;
 	font-size: 1em;
 	list-style: none;
 }
@@ -644,7 +642,7 @@ footer{
 }
 .container-estaciones .container-actividades-pendientes .titulo-actividades p{
 	font-family:TerpelSans-ExtraBold;
-	font-size: 1.3em;
+	font-size: 24px;
 	color: #FF1E0A;
 	margin-left: 30px;
 }
@@ -666,6 +664,7 @@ footer{
 	height: 80%;
 	margin-bottom: 10px;
 	font-family:TerpelSans-ExtraBold;
+	color: #666666;
 	font-size: 1em;
 	list-style: none;
 }
@@ -683,8 +682,8 @@ footer{
 }
 .container-links .container-link-mercado img{
 	width: 111px;
-	height: 70px;
-	margin-top: 16px;
+	height: 80px;
+	margin-top: 6px;
 	margin-left: 45px;
 }
 .container-links .container-link-mercado p{
@@ -692,7 +691,7 @@ footer{
 	font-size: 1.5em;
 	color: #FF1E0A;
 	margin-left: 35px;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 .container-links .container-link-ubits{
 	display: flex;
@@ -702,8 +701,8 @@ footer{
 }
 .container-links .container-link-ubits img{
 	width: 111px;
-	height: 70px;
-	margin-top: 16px;
+	height: 80px;
+	margin-top: 6px;
 	margin-left: 45px;
 }
 .container-links .container-link-ubits p{
@@ -711,7 +710,7 @@ footer{
 	font-size: 2em;
 	color: #FF1E0A;
 	margin-left: 35px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 @media screen and (max-width: 990px){
 	.container{
@@ -782,48 +781,48 @@ footer{
 	.container-links .container-link-mercado{
 		display: flex;
 		width: 45%;
-		height: auto;
+		height: 3em;
 		background-color:#FF1E0A;
 		border-radius: 4em;
 		margin-left: 1em;
+		background-image: url("../img/mercadoblanco.png");
+		background-repeat: no-repeat;
+		background-size: 40px 30px;
+		background-position: 1em .8em;
 	}
 	.container-links .container-link-mercado img{
-		content: url("/img/mercadoblanco.png");
-		width: 40px;
-		height: 30px;
-		margin-top: .6em;
-		margin-left: 2em;
+		display: none;
 	}
 	.container-links .container-link-mercado p{
 		font-size: .7em;
 		color: #FFFFFF;
-		margin-left: 1em;
+		margin-left: 6em;
 		margin-top: .9em;
 	}
 	.container-links .container-link-ubits{
 		display: flex;
 		width: 45%;
-		height: auto;
-		background-color: #FF1E0A;
+		height: 3em;
+		background-color:#FF1E0A;
 		border-radius: 4em;
 		margin-left: .5em;
+		background-image: url("../img/ubiblanco.png");
+		background-repeat: no-repeat;
+		background-size: 40px 30px;
+		background-position: 1.6em .5em;
 	}
 	.container-links .container-link-ubits img{
-		content: url("/img/ubiblanco.png");
-		width: 40px;
-		height: 30px;
-		margin-top: .6em;
-		margin-left: 2em;
+		display: none;
 	}
 	.container-links .container-link-ubits p{
 		font-family:TerpelSans-ExtraBold;
 		font-size: .9em;
 		color: #FFFFFF;
-		margin-left: 1em;
-		margin-top: 1.3em;
+		margin-left: 6em;
+		margin-top: 1.1em;
 	}
-		
 }
+
 /************************************************** fin - home.html******************************************************************/
 /************************************************** inicio - certificaciones.html******************************************************************/
 .container-certificaciones{
@@ -832,11 +831,11 @@ footer{
 	align-items: flex-start;
 	margin-left: 8%;
 	margin-top: 5%;
-	width: 70%;
+	width: 85%;
 	overflow-y: hidden;
 }
 .container-img-certificaciones{
-	width: 100%;
+	width: 70%;
 	margin-bottom: 3%;
 }
 .container-tabla-certificados{
@@ -848,24 +847,33 @@ footer{
 .container-tabla-certificados table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
-	font-size: 1.6em;
+	font-size: 1.1em;
 }
 .container-tabla-certificados table thead tr th{
-	padding-left: 1em;
-	padding-right: 1em;
+	width: 16em;
+	padding-left: .5em;
+	padding-right: .5em;
 	padding-top: .2em;
 	padding-bottom: .2em;
 	border-radius: 1em;
 }
+
 .container-tabla-certificados table{
 	overflow-y: scroll;
 }
 .container-tabla-certificados table tbody tr th{
 	padding-top: 20px;
-	color: #2E2E2E;
-	font-size: 1.4em;
-	
+	color: #666666;
+	font-size: 1em;
 }
+.container-tabla-certificados table tbody tr th:nth-child(1){
+	text-align: left;
+}
+.container-tabla-certificados table tbody tr th:nth-child(3){
+	cursor: pointer;
+}
+
+
 .container-tabla-certificados table tbody tr th img{
 	width: 28px;
 	transform: rotate(90deg);
@@ -890,6 +898,7 @@ footer{
 	}
 	.container-img-certificaciones img{
 	 width: 250px;
+	 margin-left: 2em;
 	}
 	.co
 	.container-tabla-certificados{
@@ -910,4 +919,115 @@ footer{
 	.container-tabla-certificados table tbody tr th img{
 		width: 18px;
 	}
+}
+/************************************************** fin - certificaciones.html******************************************************************/
+/************************************************** inicio - evaluaciones.html******************************************************************/
+.container-evaluaciones{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 8%;
+	margin-top: 5%;
+	width: 85%;
+	overflow-y: hidden;
+}
+.container-img-evaluaciones{
+	width: 100%;
+	margin-bottom: 3%;
+}
+.container-tabla-evaluaciones{
+	display: flex;
+	width: 100%;
+	height: 70vh;
+	overflow-y: scroll;
+}
+.container-tabla-evaluaciones table thead tr{
+	background-color: #FF1E0A;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+.container-tabla-evaluaciones table thead tr th{
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	border-radius: 1em;
+
+}
+.container-tabla-evaluaciones table thead tr th:nth-child(1){
+	width: 38%;
+}
+.container-tabla-evaluaciones table thead tr th:nth-child(3){
+	width: 25%;
+}
+
+.container-tabla-evaluaciones table{
+	overflow-y: scroll;
+}
+.container-tabla-evaluaciones table tbody tr th{
+	padding-top: 20px;
+	color: #666666;
+	font-size: 1em;	
+}
+.container-tabla-evaluaciones table tbody tr th button{
+	background-color: #cecece;
+	color: #2E2E2E;
+	font-family: TerpelSans-Regular;
+	font-size: .7em;
+	border: none;
+	border-radius: 2em;
+}
+.container-tabla-evaluaciones table tbody tr th:nth-child(1){
+	text-align: left;
+}
+
+.container-tabla-evaluaciones table tbody tr th:nth-child(2){
+	cursor: pointer;
+}
+.container-tabla-evaluaciones table tbody tr th button:nth-child(2){
+	cursor: pointer;
+}
+
+
+@media all and (-ms-high-contrast:none){
+	/* estilos CSS para IE9, IE10, IE11  */
+	.container-evaluaciones{
+		width: 70%;
+	}
+	.container-tabla-evaluaciones  {
+		width: 100%;
+		overflow-x: hidden;
+	}
+  }
+@media screen and (max-width: 990px){
+
+	.container-evaluaciones{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+	.container-img-evaluaciones img{
+	 width: 200px;
+	 margin-left: 2em;
+	}
+	.co
+	.container-tabla-evaluaciones{
+		overflow-y: auto;
+		
+	}
+	.container-tabla-evaluaciones table thead tr{
+		font-size: .9em;
+	}
+	.container-tabla-evaluaciones table thead tr th{
+		padding: .1em;
+		border-radius: 1em;
+	}
+	.container-tabla-evaluaciones table tbody tr th{
+		font-size: .8em;
+
+	}
+	.container-tabla-evaluaciones table tbody tr th img{
+		width: 18px;
+	}
+	
 }
