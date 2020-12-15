@@ -538,6 +538,10 @@ footer{
 		transition: .5s;
 
 	}
+	.menu ul li{
+		font-size: 1.2em;
+
+	}
 	.container-perfil{
 		width: 80%;
 		flex-direction: column;
