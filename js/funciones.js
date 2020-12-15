@@ -1,3 +1,10 @@
 function menu() {
-    document.getElementById("container-menu").style.right="30%";
+      var btnmenu =document.getElementById("container-menu");
+      
+      if (btnmenu.style.right=="100%"){
+        btnmenu.style.right="30%";
+      }
+      else{
+          btnmenu.style.right="100%";
+      }
 };
