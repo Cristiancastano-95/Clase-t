@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="google" content="notranslate" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#FF1E0A">
+	<title>Clase T</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/funciones.js"></script>
+</head>
+
+<body>
+	<section class="maincontent">
+		<div class="container-barra-lateral">
+			<div class="header">
+				<div class="logo">
+					<a href="./home.html"><img src="img/Logo-claseT-grande.png" alt="Logo Clase T"></a>
+				</div>
+				<div class="btn-menu">
+					<img src="img/menu.png" alt="" onclick="menu()">
+				</div>
+			</div>
+			<div class="container-menu" id="container-menu" >
+				<nav class="menu">
+					<ul>
+						<li><a href="./home.html">Inicio</a></li>
+						<li><a href="./perfil-usuario.html">Perfil</a></li>
+						<li><a href="./evaluaciones.html">Evaluación</a></li>
+						<li onclick="comunicaciones()">Comunicación
+							<ul id="lista-comunicaciones">
+								<li><a href="./chat.html">Chat</a></li>
+								<li><a href="./comunicaciones.html">Foro</a></li>
+							</ul>
+						</li>
+						<li id="menu-recursos"><a href="./recursos.html">Recursos</a></li>
+						<li><a href="./index.html">Salir</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer">
+				<span>Términos y condiciones ® 2020 Terpel. Todos los derechos registrados</span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="container-recursos">
+				<div class="container-img-recursos">
+					<img src="img/recursos.png" alt="">
+				</div>
+				<div class="container-todos-recursos">
+					<div class="container-botones">
+						<a href="./recursos.html"><button class="activo">Activar App móvil</button></a>
+						<a href="./enlaces.html"><button>Enlaces</button></a>
+						<a href="./presentaciones.html"><button>Presentaciones</button></a>
+						<a href="./archivos.html"><button>Archivos</button></a>
+						<a href="./video.html"><button>Videos</button></a>
+						<a href="https://soportegmt.zendesk.com/hc/es/requests/new" target="_blank"><button>Mesa de ayuda</button></a>
+
+					</div>
+					<div class="container-qr">
+						<img src="img/qr.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-respon">
+			<p>Términos y condiciones ® 2020 Terpel. Todos los derechos registrados</p>
+		</div>
+	</footer>
+</body>
+
+</html>

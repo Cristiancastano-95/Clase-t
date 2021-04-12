@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="google" content="notranslate" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#FF1E0A">
+	<title>Clase T</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/funciones.js"></script>
+</head>
+
+<body>
+	<section class="maincontent">
+		<div class="container-barra-lateral">
+			<div class="header">
+				<div class="logo">
+					<a href="./home.html"><img src="img/Logo-claseT-grande.png" alt="Logo Clase T"></a>
+				</div>
+				<div class="btn-menu">
+					<img src="img/menu.png" alt="" onclick="menu()">
+				</div>
+			</div>
+			<div class="nombre-usuario">
+				<p>Hola: <br>Usuario <br> ClaseT</p>
+			</div>	
+			<div class="container-menu" id="container-menu">
+				<nav class="menu">
+					<ul>
+						<li><a href="./home.html">Inicio</a></li>
+						<li><a href="./perfil-usuario.html">Perfil</a></li>
+						<li><a href="./evaluaciones.html">Evaluación</a></li>
+						<li onclick="comunicaciones()">Comunicación
+							<ul id="lista-comunicaciones">
+								<li><a href="./chat.html">Chat</a></li>
+								<li><a href="./comunicaciones.html">Foro</a></li>
+							</ul>
+						</li>
+						<li id="menu-recursos"><a href="./recursos.html">Recursos</a></li>
+						<li><a href="./index.html">Salir</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer">
+				<span>Términos y condiciones ® 2020 Terpel. Todos los derechos registrados</span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="container-banner">
+				<div class="container-banner-texto">
+					<p>Cursos <br> nuevos</p>
+					<p>Cursos nuevos</p>
+				</div>
+				<div class="barra-banner">
+					<a href="./bienvenidos.html">
+						<div class="btn-bienvenida">
+							<img src="img/bienvenida.png" alt="">
+							<p>Bienvenidos a Clase T</p>
+						</div>
+					</a>
+					<a href="./doc/guiadeuso.pdf" target="_blank">
+					<div class="btn-guia">
+						<img src="img/guia.png" alt="">
+						<p>Guía de usuario</p>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="container-estaciones">
+				<div class="container-estaciones-aprendizaje">
+					<div class="titulo-estaciones">
+						<p>Estaciones de aprendizaje</p>
+					</div>
+					<div class="listado-estaciones">
+						<ul>
+							<li onclick="sublista()"><img src="img/bien.png" alt="">Contenido específico de cargo
+								<ul class="listado-cursos" id="sub-lista">
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+								</ul>
+							</li>
+							<li onclick="sublista2()"><img src="img/mal.png" alt="">Contenido exigible
+								<ul class="listado-cursos" id="sub-lista2">
+									<li><a href="./curso-activo.html"><img src="img/mal.png" alt="">Estilo Terpel</a>
+									</li>
+									<li><a href="./curso-activo.html"><img src="img/mal.png" alt="">Estilo Terpel</a>
+									</li>
+									<li><a href="./curso-activo.html"><img src="img/mal.png" alt="">Estilo Terpel
+											incompleto</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+								</ul>
+							</li>
+							<li onclick="sublista3()"><img src="img/bien.png" alt="">Contenido transversal
+								<ul class="listado-cursos" id="sub-lista3">
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+								</ul>
+							</li>
+							<li onclick="sublista4()"><img src="img/bien.png" alt="">Contenido para el desarollo
+								<ul class="listado-cursos" id="sub-lista4">
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+									<li><a href="./certificaciones.html"><img src="img/bien.png" alt="">Estilo
+											Terpel</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr class="linea">
+				<div class="container-actividades-pendientes">
+					<div class="titulo-actividades">
+						<p>Cursos pendientes</p>
+					</div>
+					<div class="listado-actividades">
+						<ul>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png" alt="">Habeas
+									Data - Agosto</a></li>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png"
+										alt="">Encapsulados</a></li>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png"
+										alt="">ExpedienT</a></li>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png" alt="">Habeas
+									Data - Agosto</a></li>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png"
+										alt="">Encapsulados</a></li>
+							<li><a href="./curso-activo.html"><img src="img/actividades-pendientes.png"
+										alt="">ExpedienT</a></li>
+						</ul>
+					</div>
+				</div>
+				<hr class="linea">
+				<div class="container-actividades-pendientes">
+					<div class="titulo-actividades">
+						<p>Evaluaciones pendientes</p>
+					</div>
+					<div class="listado-actividades">
+						<ul>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png" alt="">Evaluación Habeas
+									Data</a></li>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png"
+										alt="">Evaluación Encapsulados</a></li>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png"
+										alt="">Evaluación ExpedienT</a></li>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png" alt="">Evaluación Habeas
+									Data </a></li>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png"
+										alt="">Evaluación Encapsulados</a></li>
+							<li><a href="./evaluaciones.html"><img src="img/actividades-pendientes.png"
+										alt="">Evaluación ExpedienT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container-links">
+				<div class="container-link-mercado">
+					<img src="img/mercadosab.png" alt="">
+					<p>Mercado <br>de Saberes</p>
+				</div>
+				<div class="container-link-ubits">
+					<img src="img/ubit.png" alt="">
+					<p>Ubits</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-respon">
+			<p>Términos y condiciones ® 2020 Terpel. Todos los derechos registrados</p>
+		</div>
+	</footer>
+</body>
+
+</html>
