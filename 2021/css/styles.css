@@ -1603,7 +1603,7 @@ footer{
 	margin-left: 2%;	
 }
 .container-curso h1{
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family:TerpelSans-Bold;
 	color: #FF1E0A;
 }
@@ -1614,6 +1614,15 @@ footer{
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+@media screen and (max-width: 1280px) {/***********Estilos pantallas 1280px********************/
+	.container-curso{
+		margin-top: 4%;	
+	}
+	.container-curso h1{
+		font-size: 1em;
+	}
+}
+
 @media screen and (max-width: 990px){
 	.container-curso{
 		margin-left: 0;
