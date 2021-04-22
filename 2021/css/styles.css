@@ -49,6 +49,7 @@
 	justify-content: flex-start;
 	width: 20%;
 	min-width: 350px;
+	max-width: 350px;
 	height: 100vh;
 	background-color: #FF1E0A;
 	
@@ -267,6 +268,7 @@ footer{
 }
 .footer{
 	position: fixed;
+	width: 25%;
 	bottom:0;
 	margin-bottom: 1%;
 	color: #ffffff;
@@ -400,7 +402,8 @@ footer{
 	}
 	.footer{
 	  position: fixed;
-	  left: 10px;
+	  width: 20%;
+	  left: 8px;
 	  bottom:0;
 	}
 	.habeas-data{
