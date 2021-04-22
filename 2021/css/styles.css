@@ -137,7 +137,7 @@
 footer{
 	display: none;
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-login img{
 		width: 70%;	
 		margin-bottom: 15%;	
@@ -320,7 +320,7 @@ footer{
 	cursor: pointer;
 	outline:none
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-barra-lateral{
 		width: 18%;
 		min-width: 290px;
@@ -557,7 +557,7 @@ footer{
 	cursor: pointer;
 	outline:none
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-menu{
 		margin-top: 0%;
 	}
@@ -871,7 +871,7 @@ footer{
 .container-links .container-link-mercado img{
 	width: 111px;
 	height: 80px;
-	margin-top: 6px;
+	margin-top: 8px;
 	margin-left: 45px;
 }
 .container-links .container-link-mercado p{
@@ -879,7 +879,7 @@ footer{
 	font-size: 1.5em;
 	color: #FF1E0A;
 	margin-left: 35px;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .container-links .container-link-ubits{
 	display: flex;
@@ -890,7 +890,7 @@ footer{
 .container-links .container-link-ubits img{
 	width: 111px;
 	height: 80px;
-	margin-top: 6px;
+	margin-top: 8px;
 	margin-left: 45px;
 }
 .container-links .container-link-ubits p{
@@ -920,7 +920,7 @@ footer{
 	margin-left: 35px;
 	margin-top: 5px;
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.nombre-usuario {
 		margin-top:0%;
 	}
@@ -1661,7 +1661,7 @@ footer{
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-curso{
 		margin-top: 4%;	
 	}
@@ -1736,7 +1736,7 @@ footer{
 	background-color: #FF1E0A;
 	color: #FFFFFF;
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1280px********************/
+@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.reset-contrasena{
 		margin-top: 3em;
 		margin-left: 5em;
