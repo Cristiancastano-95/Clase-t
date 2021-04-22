@@ -533,6 +533,7 @@ footer{
 }
 .container-img-perfil img{
 	width: 50%;
+	height: 100%;
 }
 .container-datos h1{
 	font-family:TerpelSans-Bold;
