@@ -1001,6 +1001,7 @@ footer{
 		font-size: 1em;
 		margin-left: 35px;
 		margin-top: 5px;
+		color:#FF1E0A;
 	}
 	.container-links .container-link-ubits img{
 		width: 71px;
@@ -1188,6 +1189,31 @@ footer{
 		background-color: rgba(255, 255, 255, 0.5);
 		height: 80px;
 	}
+	.container-links .container-link-mercado img{
+		width: 90px;
+		height: 65px;
+		margin-top: 7px;
+	}
+	.container-links .container-link-mercado p{
+		margin-top: 7px;
+	}
+	.container-links .container-link-ubits img{
+		width: 90px;
+		height: 65px;
+		margin-top: 7px;
+	}
+	.container-links .container-link-ubits p{
+		margin-top: 10px;
+	}
+	.container-links .container-link-claset img{
+		width: 90px;
+		height: 65px;
+		margin-top: 7px;
+	}
+	.container-links .container-link-claset p{
+		margin-top: 5px;
+	}
+	
 }
 
 /************************************************** fin - home.html******************************************************************/
@@ -1557,6 +1583,7 @@ footer{
 	font-size: 1.1em;
 }
 .container-tabla-archivos table thead tr th{
+	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -1882,6 +1909,11 @@ footer{
 	margin-top: 7%;
 	margin-left: 2%;
 }
+.container-chat img{
+	width: 25%;
+	min-width: 298px;
+	height: auto;
+}
 .container-chat h1{
 	font-size: 2em;
 	font-family:TerpelSans-Bold;
@@ -1919,6 +1951,10 @@ footer{
 		width: 40%;
 		max-width: 250px;
 	}
+	.container-chat img{
+		width: 40%;
+		max-width: 250px;
+	}
 
   }
 /************************************************** fin - chat.html******************************************************************/
@@ -1951,6 +1987,7 @@ footer{
 	font-size: 1.1em;
 }
 .container-tabla-archivos table thead tr th{
+	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -2068,6 +2105,7 @@ footer{
 	font-size: 1.1em;
 }
 .container-tabla-enlaces table thead tr th{
+	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -2185,6 +2223,7 @@ footer{
 	font-size: 1.1em;
 }
 .container-tabla-presentaciones table thead tr th{
+	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
