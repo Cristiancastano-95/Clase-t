@@ -227,6 +227,10 @@ footer{
 		left: 10px;
 		bottom:0;
 	}
+	.footer span{
+		position: absolute;
+		bottom: 3px;
+	}
 	
 }
 /************************************************** fin -index.html******************************************************************/
@@ -1191,7 +1195,7 @@ footer{
 	}
 	.container-links .container-link-mercado img{
 		width: 90px;
-		height: 65px;
+		height: 60px;
 		margin-top: 7px;
 	}
 	.container-links .container-link-mercado p{
@@ -1199,7 +1203,7 @@ footer{
 	}
 	.container-links .container-link-ubits img{
 		width: 90px;
-		height: 65px;
+		height: 60px;
 		margin-top: 7px;
 	}
 	.container-links .container-link-ubits p{
@@ -1207,7 +1211,7 @@ footer{
 	}
 	.container-links .container-link-claset img{
 		width: 90px;
-		height: 65px;
+		height: 60px;
 		margin-top: 7px;
 	}
 	.container-links .container-link-claset p{
