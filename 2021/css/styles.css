@@ -1190,8 +1190,13 @@ footer{
 }
 @media all and (-ms-high-contrast:none){
 	.container-banner .barra-banner{	
+		display: flex;
+		align-self: flex-end;
 		background-color: rgba(255, 255, 255, 0.5);
 		height: 80px;
+	}
+	.container-banner .container-banner-texto{
+		margin-top: 0em;
 	}
 	.container-links .container-link-mercado img{
 		width: 90px;
