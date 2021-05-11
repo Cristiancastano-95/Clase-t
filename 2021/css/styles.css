@@ -1198,6 +1198,18 @@ footer{
 	.container-banner .container-banner-texto{
 		margin-top: 0em;
 	}
+	.container-banner .barra-banner .btn-bienvenida img{
+		margin-top: 10px;
+		margin-left:20px;
+	}
+	.container-banner .barra-banner .btn-bienvenida p{
+		margin-top: 10px;
+		margin-left: 25px;
+	}
+	.container-banner .barra-banner .btn-guia img{
+		margin-top: 10px;
+		margin-left:20px;
+	}
 	.container-links .container-link-mercado img{
 		width: 90px;
 		height: 60px;
