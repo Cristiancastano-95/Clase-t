@@ -1189,6 +1189,9 @@ footer{
 	}
 }
 @media all and (-ms-high-contrast:none){
+	.maincontent{
+		overflow: hidden;
+	}
 	.container-banner .barra-banner{	
 		display: flex;
 		align-self: flex-end;
