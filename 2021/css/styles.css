@@ -331,6 +331,9 @@ footer{
 		width: 18%;
 		min-width: 290px;
 	}
+	.footer{
+		width: 20%;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -489,7 +492,7 @@ footer{
 	background-size: 20px 20px;
 	background-position: bottom left;
 }
-.menu ul li ul li:nth-child(2){/***********inicio Submenu comunicaciones************/
+.menu ul li ul li:nth-child(2){/***********fin Submenu comunicaciones************/
 	background-image: url("../img/perfil.png");
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
