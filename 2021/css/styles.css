@@ -221,6 +221,7 @@ footer{
 		width:307px;
 		height:85px;
 		min-height: 85px;
+		margin-bottom: 20%;
 	}
 
 	.footer{
@@ -331,8 +332,8 @@ footer{
 }
 @media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-barra-lateral{
-		width: 18%;
-		min-width: 290px;
+		width: 15%;
+		min-width: 250px;
 	}
 	.container-habeas-data{
 		overflow-y: scroll;
@@ -1293,18 +1294,23 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-certificados table{
+	width: 100%;
+	height: 1em;
+}
+
 .container-tabla-certificados table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
 	font-size: 1.1em;
 }
 .container-tabla-certificados table thead tr th{
-	width: 16em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
 	padding-bottom: .2em;
 	border-radius: 1em;
+   
 }
 
 .container-tabla-certificados table{
@@ -1321,8 +1327,6 @@ footer{
 .container-tabla-certificados table tbody tr th:nth-child(3){
 	cursor: pointer;
 }
-
-
 .container-tabla-certificados table tbody tr th img{
 	width: 28px;
 	transform: rotate(90deg);
@@ -1397,6 +1401,10 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-evaluaciones table{
+	width: 100%;
+	height: 1em;
+}
 .container-tabla-evaluaciones table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
@@ -1448,7 +1456,7 @@ footer{
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-evaluaciones{
-		width: 70%;
+		width: 90%;
 	}
 	.container-img-evaluaciones img{
 		width: 234px;
@@ -1630,13 +1638,16 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-archivos table{
+	width: 100%;
+	height: 1em;
+}
 .container-tabla-archivos table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
 	font-size: 1.1em;
 }
-.container-tabla-archivos table thead tr th{
-	height: 1em;
+.container-tabla-archivos table thead tr th{	
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -1681,7 +1692,7 @@ footer{
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-archivos{
-		width: 70%;
+		width: 90%;
 	}
 	.container-img-archivos img{
 		width: 40%;
@@ -1728,31 +1739,35 @@ footer{
 /************************************************** inicio - curso-activo.html******************************************************************/
 .container-curso{
 	display: flex;
+	width: 100%;
+	height: auto;
 	flex-direction: column;
-	width: 90%;
-	margin-top: 8%;
-	margin-left: 2%;	
+	margin-top: 2%;
+	margin-left: 2%;
+	
 }
+.container-curso .container-scroll-curso{
+	display: flex;
+	flex-direction: column;
+	width: 97%;
+	height: calc(100vh*0.95);
+	overflow:scroll ;
+}
+
 .container-curso h1{
-	font-size: 2em;
+	font-size: 1em;
 	font-family:TerpelSans-Bold;
 	color: #FF1E0A;
 }
 .container-curso .curso{
-	width: 100%;
-	height: 70vh;
+	display: inline-table;
+	width:1024px;
+	height: 800px;
 	background-image: url("../img/estilo.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-@media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
-	.container-curso{
-		margin-top: 4%;	
-	}
-	.container-curso h1{
-		font-size: 1em;
-	}
-}
+
 
 @media screen and (max-width: 990px){
 	.container-curso{
@@ -1959,8 +1974,16 @@ footer{
 	display: flex;
 	flex-direction: column;
 	width: 95%;
+	height: auto;
 	margin-top: 7%;
 	margin-left: 2%;
+}
+.container-chat .container-scroll-chat{
+	display: flex;
+	flex-direction: column;
+	width: 99%;
+	height: 85vh;
+	overflow:scroll ;
 }
 .container-chat img{
 	width: 25%;
@@ -1977,11 +2000,12 @@ footer{
 	color: #666666;
 }
 .chat{
-	display: flex;
-	width: 70%;
-	height: 40vh;
+	display: inline-table;
+	width: 1024px;
+	height: 350px;
 	border: solid 2px #2E2E2E;
 }
+
 
 @media screen and (max-width: 990px){
 	.container-chat{
@@ -2011,7 +2035,7 @@ footer{
 
   }
 /************************************************** fin - chat.html******************************************************************/
-/************************************************** inicio - chat.html******************************************************************/
+/************************************************** inicio - archivos.html******************************************************************/
 .container-archivos{
 	display: flex;
 	flex-direction: column;
@@ -2034,13 +2058,16 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-archivos table{
+	width: 100%;
+	height: 1em;
+}
 .container-tabla-archivos table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
 	font-size: 1.1em;
 }
 .container-tabla-archivos table thead tr th{
-	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -2085,7 +2112,7 @@ footer{
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-archivos{
-		width: 70%;
+		width: 90%;
 	}
 	.container-img-archivos img{
 		width: 40%;
@@ -2152,13 +2179,16 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-enlaces table{
+	width: 100%;
+	height: 1em;
+}
 .container-tabla-enlaces table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
 	font-size: 1.1em;
 }
 .container-tabla-enlaces table thead tr th{
-	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -2203,7 +2233,7 @@ footer{
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-enlaces{
-		width: 70%;
+		width: 90%;
 	}
 	.container-img-enlaces img{
 		width: 40%;
@@ -2270,13 +2300,16 @@ footer{
 	height: 70vh;
 	overflow-y: scroll;
 }
+.container-tabla-presentaciones table{
+	width: 100%;
+	height: 1em;
+}
 .container-tabla-presentaciones table thead tr{
 	background-color: #FF1E0A;
 	color: #ffffff;
 	font-size: 1.1em;
 }
 .container-tabla-presentaciones table thead tr th{
-	height: 1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: .2em;
@@ -2321,7 +2354,7 @@ footer{
 @media all and (-ms-high-contrast:none){
 	/* estilos CSS para IE9, IE10, IE11  */
 	.container-presentaciones{
-		width: 70%;
+		width: 90%;
 	}
 	.container-img-presentaciones img{
 		width: 40%;
