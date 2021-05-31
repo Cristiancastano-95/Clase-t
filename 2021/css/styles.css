@@ -333,7 +333,7 @@ footer{
 @media screen and (max-width: 1367px) {/***********Estilos pantallas 1367px********************/
 	.container-barra-lateral{
 		width: 17%;
-		min-width: 250px;
+		min-width: 270px;
 	}
 	.container-habeas-data{
 		overflow-y: scroll;
