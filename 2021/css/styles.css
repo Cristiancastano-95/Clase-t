@@ -1762,7 +1762,7 @@ footer{
 .container-curso .curso{
 	display: inline-table;
 	width:1024px;
-	height: 800px;
+	height: 768px;
 	background-image: url("../img/estilo.png");
 	background-size: contain;
 	background-repeat: no-repeat;
