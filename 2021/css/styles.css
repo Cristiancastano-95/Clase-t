@@ -1749,7 +1749,7 @@ footer{
 .container-curso .container-scroll-curso{
 	display: flex;
 	flex-direction: column;
-	width: 97%;
+	width: 95%;
 	height: calc(100vh*0.95);
 	overflow:scroll ;
 }
