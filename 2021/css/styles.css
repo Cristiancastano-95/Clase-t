@@ -1079,6 +1079,9 @@ footer{
 
 }
 @media screen and (max-width: 990px){
+	html, body{
+		overflow-y: scroll;
+	}
 	.nombre-usuario {
 		display: none;
 	}
@@ -1124,7 +1127,9 @@ footer{
 	}
 	.container-estaciones{
 		display: inline-block;
-		height: auto;
+		height: 50vh;
+        overflow-y: scroll;
+
 	}
 	.container-estaciones .container-estaciones-aprendizaje{
 		display: inline-block;
